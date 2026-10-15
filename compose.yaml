@@ -1,9 +1,9 @@
 # docker compose up -d   (then: docker compose logs renderer   for the pairing code)
 services:
   renderer:
-    image: ghcr.io/lukaznj/manim-studio-renderer:0.4.0
+    image: ghcr.io/lukaznj/manim-studio-renderer:0.5.0
     # Or build it yourself instead of pulling:
-    # build: { context: ., args: { STUDIO_REF: v0.4.0 } }
+    # build: { context: ., args: { STUDIO_REF: v0.5.0 } }
     restart: unless-stopped
     ports:
       # Listen on a private address only, e.g. this machine's Tailscale address: "100.x.y.z:7400:7400".

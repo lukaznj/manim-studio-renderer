@@ -3,7 +3,7 @@
 # the app. Keep STUDIO_REF at the version of Manim Studio you use.
 FROM debian:bookworm-slim
 
-ARG STUDIO_REF=v0.4.0
+ARG STUDIO_REF=v0.5.0
 ARG PIXI_VERSION=v0.81.0
 
 # TeX Live for MathTex (what the app installs as TinyTeX), fonts for Text, git and curl for the build.
