@@ -22,7 +22,7 @@ To print the code again: `docker compose exec renderer pixi run python -m studio
 
 ## Match the app's version
 
-The image tag is the Manim Studio version it renders like (`0.6.0`). When you update the app, update the image too: change the tag in `compose.yaml` and run `docker compose pull && docker compose up -d`. Settings → General shows each server's version.
+The image tag is the Manim Studio version it renders like (`0.7.0`). When you update the app, update the image too: change the tag in `compose.yaml` and run `docker compose pull && docker compose up -d`. Settings → General shows each server's version.
 
 To build instead of pulling, use the `build:` line in `compose.yaml`; `STUDIO_REF` is the release to build.
 
